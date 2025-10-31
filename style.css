@@ -1,0 +1,130 @@
+/*
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background: linear-gradient(135deg, #F9FAFB 0%, #E0F2FE 100%);
+    font-family: monospace;
+    height: 100vh;
+    
+}
+.overall{
+    display: flex;
+    gap: 0.5rem;
+    margin: 15px;
+    
+}
+button{
+    border: none;
+    border-radius: 5px;
+   background-color: dodgerblue;
+   font-size: 15px;
+}
+.game{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+     gap: 2rem;
+     height: 70vh;
+     
+    
+    
+}
+.butt{
+    padding: 15px;
+    background: #6b7280;
+}
+
+a{
+    text-decoration: none;
+}
+.option{
+    background: #2563EB;
+}
+.options{
+   background: #10B981;
+}
+
+.optionss{
+    background: #ef4444;
+}
+.opt{
+    background: #6b7280;
+}
+.butts{
+    padding: 15px;
+    background: #facc15;
+}
+.but{
+    padding: 15px;
+    background: #ec4899;
+}
+button:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display : flex;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f9ff;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.game-container{
+    text-align: center;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin: 20px;
+    
+}
+h1{
+    color: #0f172a;
+    font-size: 1.5rem;
+}
+.choices{
+    padding: 15px 25px;
+}
+button{
+    font-size: 19px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 0.5rem;
+    transition: background 0.3s;
+    height: 2.5rem;
+    width: 3remrem;
+    
+}.bot{
+    background: #3b82f6;
+    color: #ffffff;
+}
+.bots{
+    background: #10b981;
+    color: #ffffff;
+}
+.but{
+    background: #f59e0b;
+    color: #ffffff;
+}
+button .bot:hover{
+    background: #2563eb;
+} 
+button .bots:hover{
+    background: #059668;
+}
+button .but:hover{
+    background: #d97706;
+}
