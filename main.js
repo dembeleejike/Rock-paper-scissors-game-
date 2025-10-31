@@ -105,7 +105,7 @@ alert(`You picked ${decision}. Computer picked ${computerMove}, ${result}`)
 const score = {
   wins: 0,
   losses: 0,
-  ties: 2,
+  ties: 0,
 };
 
 
